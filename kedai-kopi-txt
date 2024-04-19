@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>warung pinggir kali</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Kenia&family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- searching -->
+    <!-- end -->
+    <nav class="navbar">
+      <a href="" class="navbar-logo">W.P.K.</a>
+      <div class="navbar-nav">
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang kami</a>
+        <a href="#menu2">Menu</a>
+        <a href="#product">Searies</a>
+        <a href="#services">Service</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="nav-icon">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
+        <a href="#" id="menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+
+      <!-- shopping cart -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="image/series/series1.png" alt="series 1" />
+          <div class="item-detail">
+            <h3>Black Coffee Mix</h3>
+            <div class="item-price">IDR 6.500</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="image/series/series2.png" alt="series 2" />
+          <div class="item-detail">
+            <h3>Coffee Mix White Milk</h3>
+            <div class="item-price">IDR 6.500</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="image/series/series3.png" alt="series 3" />
+          <div class="item-detail">
+            <h3>Coffee Mix Gula Aren</h3>
+            <div class="item-price">IDR 6.500</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero section -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Rehat Sejenak Disini</h1>
+        <p>Buka setiap hari dari jam <span>10.00 - 23.00 WIB.</span></p>
+        <a href="#menu2" class="cta">Beli sekarang</a>
+      </main>
+    </section>
+    <!-- end -->
+
+    <!-- about section -->
+    <section class="about" id="about">
+      <h2>Tentang kami</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="image/tentangkami.jpg" alt="Tentang kami" />
+        </div>
+
+        <div class="content">
+          <h3>Pengenalan</h3>
+          <p>
+            W.P.K. atau singkatan dari (warung pinggir kali), adalah sebuah
+            warung sederhana bertemakan coffee shop yang dirancang oleh mas
+            ilham sebagai ownernya, dan dibuat sebagai tempat nongkrong anak-
+            anak muda jaman sekarang, karena atas rasa kekesalan mas ilham
+            sebagai anak jaman sekarang yang males banget pergi kemana - mana,
+            maka beliau mempunyai ide untuk membuat warung kecil- kecilan di
+            depan rumah agak condong kekanan dan tepat berada disebelah kali.
+            dengan dana yang seadanya dan dibantu oleh ibunya yng mensupport
+            beliau, maka berdirilah sebuah warung yang sekarang berdiri ini,
+            beliau mempunyai sebuah ide untuk menamai warungnya dengan "warung
+            pinggir kali" atau biasa disingkat W.P.K., sekian pengenalan tentang
+            kami pada kalian semua, kami ucapkan terimakasih.
+            <span>SELAMAT MENIKMATI.</span>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+
+    <!-- menu section -->
+    <section id="menu2" class="menu">
+      <h2>Menu disini</h2>
+      <p>
+        Silahkan menikmati menu yang kami sajikan di tempat ini, walau menunya
+        terkesan biasa aja, tapi semoga bisa membuat kalian bahagia.
+        <span>SELAMAT MENCOBA.</span>
+      </p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img
+            src="image/menu/latte2.png"
+            alt="Latte"
+            class="menu-card-image"
+          />
+          <h3 class="menu-card-title">- Kopi Luwak white coffee -</h3>
+          <p class="menu-card-price">IDR 3.000 (Hangat)</p>
+          <p class="menu-card-price">IDR 5.000 (Dingin)</p>
+        </div>
+
+        <div class="menu-card">
+          <img src="image/menu/jahe1.png" alt="Latte" class="menu-card-image" />
+          <h3 class="menu-card-title">- Kopi Luwak white coffee -</h3>
+          <p class="menu-card-price">IDR 4.000 (Hangat)</p>
+        </div>
+
+        <div class="menu-card">
+          <img
+            src="image/menu/cappucino2.png"
+            alt="Latte"
+            class="menu-card-image"
+          />
+          <h3 class="menu-card-title">- Kopi good day cappucino -</h3>
+          <p class="menu-card-price">IDR 3.000 (Hangat)</p>
+          <p class="menu-card-price">IDR 5.000 (Dingin)</p>
+        </div>
+
+        <div class="menu-card">
+          <img
+            src="image/menu/expresso2.png"
+            alt="Latte"
+            class="menu-card-image"
+          />
+          <h3 class="menu-card-title">- Kopi kapal api mix -</h3>
+          <p class="menu-card-price">IDR 3.000 (Hangat)</p>
+          <p class="menu-card-price">IDR 5.000 (Dingin)</p>
+        </div>
+
+        <div class="menu-card">
+          <img
+            src="image/menu/kopisusu.png"
+            alt="Latte"
+            class="menu-card-image"
+          />
+          <h3 class="menu-card-title">- Kopi ABC susu -</h3>
+          <p class="menu-card-price">IDR 3.000 (Hangat)</p>
+          <p class="menu-card-price">IDR 5.000 (Dingin)</p>
+        </div>
+
+        <div class="menu-card">
+          <img src="image/menu/teh.png" alt="Latte" class="menu-card-image" />
+          <h3 class="menu-card-title">- Teh/Es teh -</h3>
+          <p class="menu-card-price">IDR 2.000 (Hangat)</p>
+          <p class="menu-card-price">IDR 3.000 (Dingin)</p>
+        </div>
+
+        <div class="menu-card">
+          <img src="image/menu/susu.png" alt="Latte" class="menu-card-image" />
+          <h3 class="menu-card-title">- Susu putih/coklat -</h3>
+          <p class="menu-card-price">IDR 3.000 (Hangat)</p>
+          <p class="menu-card-price">IDR 5.000 (Dingin)</p>
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+
+    <!-- product -->
+    <section id="product" class="product">
+      <h2>Kopi Searies</h2>
+      <p>
+        Dengan racikan tangan disela sela kegabutan, terciptalah minuman series
+        dari kami.
+      </p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icon">
+            <a href=""><i data-feather="shopping-cart"></i></a>
+            <a href="" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="image/series/series1.png" alt="kopi series satu" />
+          </div>
+          <div class="product-content">
+            <h3>Black Coffee Mix</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 6.500 <span>IDR 8000</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icon">
+            <a href=""><i data-feather="shopping-cart"></i></a>
+            <a href="" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="image/series/series2.png" alt="kopi series satu" />
+          </div>
+          <div class="product-content">
+            <h3>Coffee mix white milk</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 7000 <span>IDR 8000</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icon">
+            <a href=""><i data-feather="shopping-cart"></i></a>
+            <a href="" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="image/series/series3.png" alt="kopi series satu" />
+          </div>
+          <div class="product-content">
+            <h3>Coffee mix Gula Aren</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 6000 <span>IDR 8000</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+
+    <!-- services -->
+    <section id="services" class="services">
+      <h2>Service kami</h2>
+      <p>
+        Services atau pelayanan di tempat kami ditujukan untuk menambah
+        kenyamanan pengunjung di tempat yang sederhana ini, supaya para
+        pengunjung betah dan tidak bosan bosannya berada disini.<span
+          >SELAMAT MENIKMATI.</span
+        >
+      </p>
+
+      <div class="row">
+        <div class="layanan">
+          <img src="image/imageservices/foto1.jpg" alt="wifi.id" />
+        </div>
+
+        <div class="keterangan">
+          <p>
+            wifi disediakan untuk teman - teman sekalian yang sudah berkunjung
+            ke tempat kami, akses wifi kami berikan gratis bagi pengunjung.
+          </p>
+        </div>
+
+        <div class="layanan2">
+          <img src="image/imageservices/foto2.jpg" alt="tempat nyaman" />
+        </div>
+
+        <div class="keterangan">
+          <p>
+            menyediakan tempat untuk bersantai sambil mengerjakan tugas ataupun
+            yang lainnya.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+
+    <!-- contact section -->
+    <section id="contact" class="contact">
+      <h2>Kontak Kami</h2>
+      <p>
+        Silahkan hubungi kami jika ada kendala dalam kenyamanan dan pesanan anda
+        di <span>W.P.K.</span> kami senantiasa mendengar keluh kesah anda
+        terhadap tempat kami, bisa kirimkan pesan di bawah ini.
+        <span>TERIMAKASIH.</span>
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15839.54283441354!2d109.58718783382186!3d-7.0227185907977825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e701f9211109c8b%3A0x36c9ecf9f511ae2c!2sTanjungsari%2C%20Kec.%20Kajen%2C%20Kabupaten%20Pekalongan%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1699773684870!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="maps"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="No.handphone" />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- end -->
+
+    <!-- footer -->
+    <footer>
+      <div class="social">
+        <a href=""><i data-feather="instagram"></i></a>
+        <a href=""><i data-feather="facebook"></i></a>
+        <a href=""><i data-feather="twitter"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>created by <a href="#">Ilham fahrizi.</a> | &copy; 2023</p>
+      </div>
+    </footer>
+    <!-- end -->
+
+    <!-- modul box item detail -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="image/series/series1.png" alt="" />
+          <div class="product-content">
+            <h3></h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet
+              magni, qui vero, molestias cumque et alias porro illum saepe minus
+              odit ea rerum a delectus.
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 6.500 <span>IDR 8000</span></div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i> <span>Add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end -->
+
+    <!-- script -->
+    <script>
+      feather.replace();
+    </script>
+    <!-- myscript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
